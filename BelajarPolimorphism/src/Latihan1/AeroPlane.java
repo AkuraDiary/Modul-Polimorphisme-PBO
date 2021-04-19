@@ -14,6 +14,7 @@ public class AeroPlane extends Vehicle {
     /*
      * @param args the command line arguments
      */
+    @Override
     public void walk(){
         System.out.println("Aeroplane is Flying");
     }
@@ -23,6 +24,7 @@ public class AeroPlane extends Vehicle {
     public void fuel(){
         System.out.println("Aftur");
     }
+    
     public static void main(String[] args) {
         // TODO code application logic here
         AeroPlane garuda = new AeroPlane();
